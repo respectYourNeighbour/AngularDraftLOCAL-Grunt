@@ -11,7 +11,7 @@ AngularDraft with Grunt
 - grunt-contrib-uglify
 - grunt-newer
 - grunt-contrib-watch
-- 
+
 ## Libraries
 - jquery 1.11.2
 - bootstrap 3.3.2
