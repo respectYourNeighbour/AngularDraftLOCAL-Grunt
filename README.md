@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 AngularDraft with Grunt
 ============
 ## Grunt Plugins:
@@ -12,6 +11,11 @@ AngularDraft with Grunt
 - grunt-contrib-uglify
 - grunt-newer
 - grunt-contrib-watch
+- 
+## Libraries
+- jquery 1.11.2
+- bootstrap 3.3.2
+- angular 1.3.11
 
 ### "npm install"
 - Open a new terminal window on the folder **AngularDraft_Grunt** and run this command **npm install** to install all the dependencies inside the file **package.json** needed for Grunt and Grunt Task's to run. 
