@@ -29,7 +29,7 @@ module.exports = function(grunt) {
             //   separator: ';'
             // },
             js: {
-                src: 'js/**/*.js', 
+                src: ['js/jquery-1.11.2.js','js/bootstrap-3.3.2-dist.js','js/angular-1.3.11.js','js/controllers.js','js/script.js'], 
                 dest: '_temp/deletable/<%= pkg.name %>.js'
             },
             css: {
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
         "merge-json": {
             "en": {
                 src: [ "resources/*.json" ],
-                dest: "dest/resources/lista.json"
+                dest: "_temp/deletable/lista.json"
             }
         },
         jsonmin: {
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
                     stripComments: true
                 },
                 files: {
-                    'dest/resources/lista1.json': ['dest/resources/*.json']
+                    'dest/resources/lista.json': ['_temp/deletable/*.json']
                 }
             }
         },
