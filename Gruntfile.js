@@ -29,7 +29,11 @@ module.exports = function(grunt) {
             //   separator: ';'
             // },
             js: {
+<<<<<<< HEAD
                 src: ['js/libs/bootstrap-3.3.2-dist.js','js/libs/angular-1.3.11.js','js/controllers.js'], 
+=======
+                src: ['js/jquery-1.11.2.js','js/bootstrap-3.3.2-dist.js','js/angular-1.3.11.js','js/controllers.js','js/script.js'], 
+>>>>>>> parent of 52fbcb1... deleted jquery
                 dest: '_temp/deletable/<%= pkg.name %>.js'
             },
             css: {
