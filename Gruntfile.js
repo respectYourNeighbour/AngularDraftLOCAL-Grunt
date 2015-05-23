@@ -29,7 +29,7 @@ module.exports = function(grunt) {
             //   separator: ';'
             // },
             js: {
-                src: ['js/bootstrap-3.3.2-dist.js','js/angular-1.3.11.js','js/controllers.js','js/script.js'], 
+                src: ['js/libs/bootstrap-3.3.2-dist.js','js/libs/angular-1.3.11.js','js/controllers.js'], 
                 dest: '_temp/deletable/<%= pkg.name %>.js'
             },
             css: {
