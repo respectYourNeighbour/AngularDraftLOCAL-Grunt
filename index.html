@@ -55,8 +55,8 @@
             <ul>
                 <li ng-repeat="hero in heroes | filter:justAquery | orderBy:orderProperty">
                     <span>{{hero.name}}</span>
-                    <p>{{hero.snippet}}</p>
-                    <p>Age: {{hero.age}}</p>
+                    <p>{{hero.level}}</p>
+                    <p>Grup: {{hero.grup}}</p>
                 </li>
                 <p>Total number of heroes: {{heroes.length}}</p>
             </ul>

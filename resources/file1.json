@@ -1,14 +1,12 @@
 {
     "Item1_1": {
         "Level" : 1,
-        "grup" : 1,
-        "id": 11,
-        "name": "Cat 1"
+        "grup" : "superHero 1",
+        "name": "Batman"
     },
     "Item1_2": {
-        "menuLevel" : 1,
-        "grup" : 1,
-        "id": 12,
-        "name": "Cat 2"
+        "Level" : 2,
+        "grup" : "superHero 1",
+        "name": "Superman"
     }
 }

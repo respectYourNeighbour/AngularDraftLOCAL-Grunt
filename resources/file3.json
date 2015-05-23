@@ -1,14 +1,12 @@
 {
     "Item1_5": {
-        "Level" : 1,
-        "grup" : 1,
-        "id": 15,
-        "name": "Cat 5"
+        "Level" : 3,
+        "grup" : "superHero 8",
+        "name": "Captain Planet"
     },
     "Item1_6": {
-        "menuLevel" : 1,
-        "grup" : 1,
-        "id": 16,
-        "name": "Cat 6"
+        "Level" : 3,
+        "grup" : "superHero 8",
+        "name": "Hulk"
     }
 }
