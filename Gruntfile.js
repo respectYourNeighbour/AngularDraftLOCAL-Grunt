@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                     banner: '/* My minified css file */'
                 },
                 files: {
-                    'dest/css/style.min.css': ['_temp/deletable/tidy.css']
+                    'dest/css/style.min.css': ['_temp/deletable/<%= pkg.name %>.css']
                 }
             }
         },
