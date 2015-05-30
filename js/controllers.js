@@ -24,9 +24,7 @@ myAngularApp.config(['$stateProvider','$urlRouterProvider',function($stateProvid
     	.state('state1.list', {
       		url: "/list",
       		templateUrl: "partials/state1.list.html",
-      		controller: function($scope) {
-        		$scope.items = ["A", "List", "Of", "Items"];
-      		}
+      		controller: 'state1Ctrl'
     	})
     	.state('state2', {
       		url: "/state2",
@@ -35,9 +33,7 @@ myAngularApp.config(['$stateProvider','$urlRouterProvider',function($stateProvid
     	.state('state2.list', {
       		url: "/list",
       		templateUrl: "partials/state2.list.html",
-     		controller: function($scope) {
-        		$scope.things = ["A", "Set", "Of", "Things"];
-      		}
+     		controller: 'state2Ctrl'
    		});
 
 }]);
@@ -50,4 +46,12 @@ myAngularApp.config(['$stateProvider','$urlRouterProvider',function($stateProvid
 myAngularApp.controller('myListCtrl', ['$scope', '$http', function($scope, $http) {
 	$scope.name = 'user';
 	$scope.orderProperty = 'age';
+}]);
+
+myAngularApp.controller('state1Ctrl', ['$scope', function($scope) {
+	$scope.items = ["A", "List", "Of", "Items"];
+}]);
+
+myAngularApp.controller('state2Ctrl', ['$scope', function($scope) {
+	$scope.things = ["A", "Set", "Of", "Things"];
 }]);
