@@ -1,0 +1,13 @@
+{
+  "name": "Angular Draft",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "dependencies": {
+    "<name>": "<version>",
+    "<name>": "<folder>",
+    "<name>": "<package>"
+  },
+  "devDependencies": {
+    "<test-framework-name>": "<version>"
+  }
+}
