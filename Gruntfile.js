@@ -4,15 +4,15 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         htmlmin: {
-            dest:{
-                options: {
-                    removeComments: true,
-                    collapseWhitespace: true
-                },
-                files: {
-                    'dest/index.html':'*.html'
-                }
-            }
+          dist: {
+            options: {
+
+            },
+            files: [{
+              src: ['**/*.html', 'partials/**/*.html'],
+              dest: 'dest/'
+            }]
+          }
         },
         less: {
             development: {
