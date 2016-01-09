@@ -1,5 +1,10 @@
 {
     "name": "AngularDraft",
+    "repository" :
+    { 
+    	"type" : "git", 
+    	"url" : "https://github.com/respectYourNeighbour/HTML5Draft_Grunt_Local"
+  	},
     "version": "0.1.0",
     "devDependencies": {
         "grunt": "~0.4.5",
