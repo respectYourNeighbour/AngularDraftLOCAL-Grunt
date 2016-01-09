@@ -3,7 +3,7 @@
     "repository" :
     { 
     	"type" : "git", 
-    	"url" : "https://github.com/respectYourNeighbour/HTML5Draft_Grunt_Local"
+    	"url" : "https://github.com/respectYourNeighbour/Angular_Boilerplate_Grunt"
   	},
     "version": "0.1.0",
     "devDependencies": {
